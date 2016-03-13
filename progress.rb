@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # coding: utf-8
 $stdout.sync = true #書いておかないと出力がバッファに溜め込まれるかも
-
+this is test
 def progress_bar(i, max = 100)
   i = max if i > max
   rest_size = 1 + 5 + 1      # space + progress_num + %
@@ -14,7 +14,7 @@ def progress_bar(i, max = 100)
   # print "\r#{bar_str} #{'%5s' % progress_num}%"
   print "\r[#{bar_str}] #{'%5s' % progress_num}%"
 end
-
+test add2
 (0..1000).each do |j|
   sleep 0.001
   progress_bar(j, 1000)
