@@ -1,3 +1,4 @@
 # Ignore
-merge/archive*
+merge/archive/*
+merge/tmp/*
 !.gitkeep
