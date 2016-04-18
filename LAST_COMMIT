@@ -1,2 +1,5 @@
 Last commit date: $Format:%cd by %aN$
+commit: $Format:%h$
+%Format: %s
+%d$
 
