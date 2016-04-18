@@ -3,3 +3,5 @@ README.md export-ignore
 .gitkeep export-ignore
 *.ttl export-ignore
 
+# export subst
+LAST_COMMIT export-subst
